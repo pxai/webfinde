@@ -1,5 +1,5 @@
 tmp
-dist
+book/dist
 *.pdf
 *.docx
 *.epub
