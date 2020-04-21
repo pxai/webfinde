@@ -12,7 +12,7 @@ pandoc --template=${TEMPL}plantilla-kdp.latex \
     -V language=spanish -V lang=spanish \
     -V author='Pello Xabier Altadill Izura' -V title='Handbook'\
     -V documentclass=book\
-    -S --latex-engine=xelatex  \
+    --pdf-engine=xelatex  \
     -o ${DIST}webfinde.pdf  \
     prologue.md \
     01.html.md \
