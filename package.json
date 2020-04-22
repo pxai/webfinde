@@ -1,0 +1,22 @@
+{
+  "name": "webfinde",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint-md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxai/webfinde.git"
+  },
+  "keywords": [
+    "Book"
+  ],
+  "author": "Pello Xabier Altadill Izura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxai/webfinde/issues"
+  },
+  "homepage": "https://github.com/pxai/webfinde#readme"
+}
