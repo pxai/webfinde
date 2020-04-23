@@ -9,4 +9,5 @@ cache:
     - ~/.cache
 
 install:
+  - npm i
   - npm test
