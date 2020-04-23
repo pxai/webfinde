@@ -1,13 +1,8 @@
----
 language: node_js
 node_js:
-  - 12
+  - "12"
 cache:
   npm: true
   directories:
-    - node_modules
-    - ~/.cache
-
-install:
-  - npm i
-  - npm test
+    - "node_modules"
+    - "~/.cache"
