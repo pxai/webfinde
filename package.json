@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint-md"
+    "test": "npx remark book/content/*.md"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/pxai/webfinde/issues"
   },
-  "homepage": "https://github.com/pxai/webfinde#readme"
+  "homepage": "https://github.com/pxai/webfinde#readme",
+  "dependencies": {
+    "remark-cli": "^8.0.0",
+    "remark-lint": "^7.0.0",
+    "remark-preset-lint-recommended": "^4.0.0"
+  }
 }
