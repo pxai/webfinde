@@ -8,4 +8,4 @@ cache:
     - "~/.cache"
 before_script:
   - npm install
-  - npm install -g remark-lint
+  - npm install -g remark-cli
