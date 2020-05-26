@@ -1,0 +1,11 @@
+#button { 
+	background-color: #da2929;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 1px;
+	box-shadow: 2px 2px 4px #000000;
+	text-shadow: 2px 2px 4px #000000;
+	/*background: linear-gradient(90deg, #ffffff 0%, #e4e4e4 50%,#ffffff 100%);*/
+	border: 1px none #000000;
+    text-decoration: none;
+}
