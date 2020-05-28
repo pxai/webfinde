@@ -1,0 +1,14 @@
+.manifesto:first-letter {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #111;
+}
+
+.manifesto:first-line {
+    font-size: 2em;
+    color: #222;
+}
+
+.manifesto {
+    color: #333;
+}
