@@ -1,0 +1,22 @@
+
+div {
+    margin: 2em;
+    padding: 2em;
+}
+.linear-gray {
+    background: linear-gradient(90deg, #ccc 0%, 
+    #121212 50%,#ffffff 100%);
+}
+
+.radial {
+background: radial-gradient(center, ellipse cover, orange 72%,
+red 100%);
+}
+
+article {
+background: radial-gradient(20px 20px, circle cover,gray 0%,
+pink 50%,
+red 51%,
+orange 75%,
+brown 100%);
+}
