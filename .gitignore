@@ -4,3 +4,5 @@ book/dist
 *.pdf
 *.docx
 *.epub
+.DS_Store
+**/*/.DS_Store
