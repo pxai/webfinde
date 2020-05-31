@@ -1,0 +1,21 @@
+body {
+    margin: 2em;
+    background-color: hsl(200,100%,100%);
+    background-image: url('../images/background.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.title {
+    color: hsl(20,100%, 60%);
+    text-align: center;
+    font-weight: bold;
+}
+
+.manifesto {
+    padding: 4em;
+    margin: 2em;
+    background-color: hsla(190,10%, 30%,0.8);
+    color: hsl(200,60%,90%);
+}
