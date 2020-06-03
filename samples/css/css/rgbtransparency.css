@@ -1,0 +1,20 @@
+body {
+    margin: 2em;
+    background-color: white;
+    background-image: url('../images/background.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.manifesto {
+    padding: 4em;
+    margin: 2em;
+    background-color: rgba(20,20,20,0.80);
+    color: rgb(200,200,200);
+}
