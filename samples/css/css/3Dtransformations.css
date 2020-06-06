@@ -1,9 +1,9 @@
 div {
-    width: 200px;
-    height: 200px;
-    margin: 4px;
-    padding: 4px;
-    border: 1px solid gray;
+    width: 300px;
+    height: 300px;
+    margin: 3px;
+    padding: 2px;
+    border: 2px solid red;
     -webkit-transform-style: preserve-3d;
 }
 
@@ -11,10 +11,6 @@ article {
     -webkit-perspective: 200;
 }
 
-hover:article .block1 {
-    -webkit-transform: rotateY(180deg);
-}
-
-.block2 {
-    
+hover:article .rotate {
+    -webkit-transform: rotateY(270deg);
 }
