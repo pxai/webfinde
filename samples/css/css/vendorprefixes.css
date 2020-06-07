@@ -1,0 +1,22 @@
+div {
+    padding: 1em;
+    margin: 0.5em;
+}
+.red {
+    background-color: indianred;
+    border: 1px solid red;
+}
+
+.blue {
+    background-color: dodgerblue;
+    border: 1px solid blue;
+}
+
+.round {
+    -moz-border-radius: 8px; /* Mozilla Firefox, IceWeasel */
+    -webkit-border-radius: 8px; /* Webkit: Safari, Chrome, Chromiun */
+    -khtml-border-radius: 8px; /* Konqueror */
+    -ms-border-radius: 8px; /* Microsoft */
+    -o-border-radius: 8px; /* Opera */
+    border-radius: 8px; /* W3C standard */
+}

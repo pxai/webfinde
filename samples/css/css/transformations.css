@@ -1,0 +1,31 @@
+div {
+    width: 200px;
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid gray;
+}
+
+.scale:hover {
+    transform: scale(0.5);
+}
+
+.translate:hover {
+    transform: translate(10px 20px);
+}
+
+.rotate:hover {
+    transform: rotate(25deg);
+}
+
+.skew:hover {
+    transform: skew(5deg, 10deg);
+}
+
+.matrix:hover {
+    transform: matrix(2.5, 0.1, 2.5, 1.4, 45, -10);
+}
+
+.transform-origin:hover {
+    transform: rotate(-10deg);
+    transform-origin: 10%, 20%;
+}

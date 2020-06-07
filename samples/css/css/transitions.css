@@ -1,0 +1,88 @@
+.grow {
+    font-size: 12pt;
+}
+
+.grow:hover {
+    transition: all 1s ease 0s;
+    font-size: 26pt;
+    text-shadow: 3px 3px 4px gray, 
+                -3px -3px 4px gray;
+}
+.transp {
+    font-size: 12pt;
+}
+
+.transp:hover {
+    transition-property: font-size, color, font-weight;
+    transition-duration: 2s, 3s, 3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    font-size: 26pt;
+    color: green;
+    font-weight: bold;
+}
+
+.ease, .linear, .ease-in, .ease-out, 
+.ease-in-out, .cubic-bezier {
+    border: 1px solid gray;
+    margin: 1px;
+    padding: 1px;
+}
+
+.ease:hover {
+     transition: all 3s ease 0s;
+     height: 50px;
+     margin: 5px;
+     background-color: aqua;
+     border: 5px solid black;
+     box-shadow: 3px 3px 3px lawngreen;
+}
+
+.linear:hover {
+     transition: all 1s linear 0s;
+     position: absolute;
+     top: 10px;
+     left: 20px;
+     height: 200px;
+     width: 400px;
+     margin: 0px auto;
+     z-index: 10;
+     background-color: cadetblue;
+     border: 2px solid black;
+     box-shadow: 3px 3px 3px slategray;  
+}
+
+.ease-in:hover {
+      transition: all 3s ease-in 0s;
+     height: 50px;
+     margin: 5px;
+     background-color: aqua;
+     border: 5px solid black;
+     box-shadow: 3px 3px 3px lawngreen;   
+} 
+
+.ease-out:hover {
+     transition: all 3s ease-out 0s;
+     height: 50px;
+     margin: 5px;
+     background-color: aqua;
+     border: 5px solid black;
+     box-shadow: 3px 3px 3px lawngreen;
+}
+
+.ease-in-out:hover {
+     transition: all 3s ease-in-out 0s;
+     height: 50px;
+     margin: 5px;
+     background-color: aqua;
+     border: 5px solid black;
+     box-shadow: 3px 3px 3px lawngreen;
+} 
+.cubic-bezier:hover {
+     transition: all 3s cubic-bezier 0s;
+     height: 50px;
+     margin: 5px;
+     background-color: aqua;
+     border: 5px solid black;
+     box-shadow: 3px 3px 3px lawngreen;
+}

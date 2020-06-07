@@ -1,0 +1,64 @@
+@keyframes yellowgrow {
+    from {
+        font-size: 10pt;
+        color: black;
+    }
+    25% {
+        font-size: 15pt;
+        color: yellow;
+    }
+    50% {
+        font-size: 10pt;
+        color: green;
+    }
+    75% {
+        font-size: 15pt;
+        color: blue;
+    }
+    to {
+        font-size: 10pt;
+        color: black;
+    }
+}
+
+.flashy:hover {
+    animation: yellowgrow 2.5s infinite ease-in;
+}
+
+@keyframes batlogo {
+    from {
+        transform: rotate(45deg);
+    }
+    25% {
+
+        transform: rotate(90deg);
+    }
+    50% {
+
+        transform: rotate(180deg);
+    }
+    75% {
+
+        transform: rotate(240deg);
+    }
+    to {
+
+        transform: rotate(360deg);
+    }
+}
+
+.logo {
+    display: none;
+}
+
+article div {
+    width: 200px;
+    margin: 0 auto;    
+}
+
+article:hover .logo {
+    display: block;
+    animation: batlogo 1s infinite ease-in;
+} 
+
+

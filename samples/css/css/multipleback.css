@@ -1,0 +1,25 @@
+.manifesto {
+    padding: 4em;
+    margin: 2em;
+    background-color: rgba(20,20,20,0.80);
+    color: rgb(200,200,200);
+}
+
+.manifesto h2 {
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+}
+
+main {
+    font-size: 10pt;
+    font-style: italic;
+    background: url(../images/html5.png) left no-repeat, 
+                url(../images/css3.png) center no-repeat,
+                url(../images/js.png) right no-repeat;
+}
+
+footer {
+    background-color: #313131;
+    color: beige;
+}

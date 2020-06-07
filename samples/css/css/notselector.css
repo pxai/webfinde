@@ -1,0 +1,22 @@
+nav  {
+ display: table;
+}
+
+nav ul {
+ display: table-row;
+}
+
+nav ul li {
+ margin: 2em;
+ padding: 1em;
+ display: table-cell;
+}
+
+ul li.active {
+    cursor: crosshair;
+    background-color: #228965;
+}
+
+ul li:not(active)  {
+    background-color: white;
+}
