@@ -1,15 +1,16 @@
 a[title] {
-    font-size: 15pt;
-    border: 1px dotted orangered;
+    font-size: 25pt;
+    border: 1px dotted lime;
+    background-color: green;
 }
 
 img[alt] {
-    font-size: 10pt;
-    font-style: italic;
-    border: 1px dashed darkred;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px dashed red;
 }
 
-img[alt="logo"] {
-    font-size: 11pt;
+img[title="htmllogo"] {
+    font-size: 15pt;
     border: 1px dotted green;
 }
