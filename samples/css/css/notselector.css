@@ -1,22 +1,22 @@
 nav  {
- display: table;
+  display: table;
 }
 
 nav ul {
- display: table-row;
+  display: table-row;
 }
 
 nav ul li {
- margin: 2em;
- padding: 1em;
+ margin: 5px;
+ padding: 4px;
  display: table-cell;
 }
 
-ul li.active {
-    cursor: crosshair;
-    background-color: #228965;
+ul li.current {
+    cursor: all-scroll;
+    background-color: lime;
 }
 
-ul li:not(active)  {
-    background-color: white;
+ul li:not(current)  {
+    background-color: gray;
 }
