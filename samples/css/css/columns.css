@@ -1,13 +1,12 @@
 body {
-    background-color: gray;
+    background-color: lightGray;
 }
-.columns {
-   column-width: 5em; 
+.text-with-columns {
+   column-width: 4em;
 }
 
-.threecolumns {
-    column-count: 3;
-    column-gap: 1em;
+.two-columns {
+    column-gap: 1.2em;
+    column-count: 2;
     column-rule: thin dotted #999;
-    /*column-width: 8em;*/
 }
