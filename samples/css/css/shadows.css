@@ -1,12 +1,6 @@
-.title {
-    color: black;
-    text-shadow: 2px 2px 0px #404042;
-    text-shadow: 2px 2px 0px hsla(140, 3%, 36%, 0.5);
-}
-
 p {
-    font-size: 10pt;
-    text-shadow: 2px 2px 0px rgba(203, 130, 134, 0.5);
+    font-size: 0.8em;
+    text-shadow: 2px 2px 0 rgba(190, 140, 145, 0.6);
 }
 
 a {
@@ -14,22 +8,28 @@ a {
 }
 
 a:hover {
-   text-shadow: 4px 4px 0px lime; 
+   text-shadow: 1em 1em 0 orange;
 }
 
 div {
-    margin: 1em;
-   padding: 1em;  
+   margin: 1em;
+   padding: 1em;
 }
 
-.shady {
-   box-shadow: 5px 5px 5px lime;
+.title {
+    color: #ccc;
+    text-shadow: 2px 2px 0 #404042;
+    text-shadow: 2px 2px 0 hsla(155, 4%, 37%, 0.6);
 }
 
-.shady2 {
-   box-shadow: -5px -5px 1px orangered;
+.shadow1 {
+   box-shadow: 1em 1em 1em olive;
 }
 
-.shady3 {
-   box-shadow: 5px 0px 0px dodgerblue;
+.shadow2 {
+   box-shadow: -2em -2em 1px fuchsia;
+}
+
+.shadow3 {
+   box-shadow: 1em 0 0 navy;
 }
