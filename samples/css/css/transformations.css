@@ -1,31 +1,31 @@
 div {
-    width: 200px;
-    margin: 4px;
-    padding: 4px;
-    border: 1px solid gray;
+    width:  300px;
+    margin: 2em;
+    padding: 2em;
+    border: 1px solid black;
+}
+
+.rotate:hover {
+    transform: rotate(35deg);
 }
 
 .scale:hover {
     transform: scale(0.5);
 }
 
-.translate:hover {
-    transform: translate(10px 20px);
-}
-
-.rotate:hover {
-    transform: rotate(25deg);
-}
-
 .skew:hover {
-    transform: skew(5deg, 10deg);
+    transform: skew(6deg, 11deg);
+}
+
+.translate:hover {
+    transform: translate(15px 30px);
 }
 
 .matrix:hover {
-    transform: matrix(2.5, 0.1, 2.5, 1.4, 45, -10);
+    transform: matrix(2.6, 0.2, 2.6, 1.7, 35, -11);
 }
 
 .transform-origin:hover {
-    transform: rotate(-10deg);
+    transform: rotate(-15deg);
     transform-origin: 10%, 20%;
 }
