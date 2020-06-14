@@ -1,21 +1,21 @@
 nav  {
- display: table;
+   display: table;
 }
 
 nav ul {
- display: table-row;
+   display: table-row;
 }
 
 nav ul li {
- margin: 2em;
- padding: 1em;
- display: table-cell;
+   margin: 1em;
+   padding: 2em;
+   display: table-cell;
 }
 
 nav ul li:nth-child(odd)  {
-background-color: darkorange;
+    background-color: lime;
 }
 
 nav ul li:nth-child(even)  {
-background-color: #228965;
+    background-color: green;
 }

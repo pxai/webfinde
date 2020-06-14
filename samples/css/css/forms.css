@@ -1,11 +1,10 @@
-html {
+html, body {
     font-family: Arial, Helvetica, sans-serif
 }
 
 legend {
-    font-size: 2em;
     margin-bottom: 20px;
-    float: left;
+    font-size: 1.5em;
     width: 100%;
 }
 
@@ -16,7 +15,7 @@ fieldset {
     background-color: #c2c2c2;
     margin-bottom: 20px;
     box-shadow: 2px 2px 5px gray;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 label {
@@ -28,7 +27,6 @@ input[type=submit] {
     margin-bottom: 10px;
     display: block;
     width: 50%;
-
 }
 
 input, textarea {
@@ -50,17 +48,17 @@ input:required {
     font-weight: bold;
 }
 input:focus, textarea:focus {
-    border: 2px solid cadetblue;
+    border: 1px solid blue;
     background-color: lightblue;
 }
 
 input:focus:valid, textarea:focus:valid {
-    color: green;
+    color: black;
     background-color: lightgreen;
 }
 
 input:focus:invalid, textarea:focus:invalid {
-    color: darkred;
-    border: 2px solid red;
-    background-color: indianred;
+    color: red;
+    border: 1px solid red;
+    background-color: pink;
 }

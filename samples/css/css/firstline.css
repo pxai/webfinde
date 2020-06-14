@@ -1,14 +1,15 @@
-.manifesto:first-letter {
-    font-size: 3em;
-    font-weight: bolder;
-    color: #111;
-}
-
-.manifesto:first-line {
-    font-size: 2em;
-    color: #222;
-}
-
-.manifesto {
+.constitution {
     color: #333;
+}
+
+.constitution:first-letter {
+    font-size: 4em;
+    font-weight: bolder;
+    color: black;
+}
+
+.constitution:first-line {
+    font-size: 15pt;
+    font-weight: bold;
+    color: #ccc;
 }

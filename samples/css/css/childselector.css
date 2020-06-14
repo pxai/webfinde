@@ -1,9 +1,11 @@
 tbody tr:first-child {
-  background-color: lawngreen;
+  background-color: lime;
+  font-weight: bold;
 }
 
 tr td {
     border-bottom: 1px solid gray;
+    background-color: #ccc;
 }
 
 tbody tr:last-child {
