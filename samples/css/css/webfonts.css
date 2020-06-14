@@ -1,19 +1,20 @@
 
 @font-face {
-    font-family: 'BebasNeueRegular';
-    src: url('fonts/BebasNeue-webfont.eot');
-    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/BebasNeue-webfont.woff') format('woff'),
-        url('fonts/BebasNeue-webfont.ttf') format('truetype'),
-        url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-family: 'KapsalonRegular';
+    src: url('fonts/Kapsalon/Kapsalon.eot');
+    src: url('fonts/Kapsalon/Kapsalon.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Kapsalon/Kapsalon.woff') format('woff'),
+        url('fonts/Kapsalon/Kapsalon.ttf') format('truetype'),
+        url('fonts/Kapsalon/Kapsalon.svg#KapsalonRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
-.roman {
-    font-family: 'Times New Roman', Times, serif;
+
+.helvetica {
+    font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .beauty {
     text-transform: uppercase;
-    font-family: 'BebasNeueRegular';
+    font-family: 'KapsalonRegular';
 }
