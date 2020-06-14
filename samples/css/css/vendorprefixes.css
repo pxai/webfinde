@@ -1,22 +1,23 @@
 div {
-    padding: 1em;
-    margin: 0.5em;
+    padding: 1.2em;
+    margin: 0.8em;
 }
+
 .red {
-    background-color: indianred;
+    background-color: red;
     border: 1px solid red;
 }
 
 .blue {
-    background-color: dodgerblue;
+    background-color: blue;
     border: 1px solid blue;
 }
 
-.round {
-    -moz-border-radius: 8px; /* Mozilla Firefox, IceWeasel */
-    -webkit-border-radius: 8px; /* Webkit: Safari, Chrome, Chromiun */
-    -khtml-border-radius: 8px; /* Konqueror */
-    -ms-border-radius: 8px; /* Microsoft */
-    -o-border-radius: 8px; /* Opera */
-    border-radius: 8px; /* W3C standard */
+.rounded {
+    -moz-border-radius: 6px; /* Mozilla Firefox, IceWeasel */
+    -webkit-border-radius: 6px; /* Webkit: Safari, Chrome, Chromiun */
+    -o-border-radius: 6px; /* Opera */
+    -ms-border-radius: 6px; /* Microsoft */
+    -khtml-border-radius: 6px; /* Konqueror */
+    border-radius: 6px; /* W3C standard */
 }
