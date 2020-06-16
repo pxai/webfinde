@@ -10,10 +10,10 @@ describe('Main Content', function () {
   });
 
   it('has a page title', () => {
-    cy.title().should('include', 'josu');
+    cy.title().should('include', 'HTML samples');
   });
 
   it('shows Header title', () => {
-    cy.get('h3').should('have.text', 'osu.io todo list');
+    cy.get('h1').should('have.text', 'HTML samples');
   });
 });
