@@ -9,7 +9,7 @@
     "start": "miniserver --port 3000 samples/html",
     "cypress:run": "npx cypress run",
     "client": "npx start-server-and-test start http-get://localhost:3000 cypress:run",
-     "homepage": "./"
+    "homepage": "./"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,3 @@
-import * as cy from "cypress";
-
 describe('Main Content', function () {
   beforeEach(() => {
     cy.visit('http://localhost:3000');
